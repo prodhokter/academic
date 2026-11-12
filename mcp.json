@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "zotero": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "zotero-mcp-server",
+        "zotero-mcp"
+      ]
+    },
+    "arxiv": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "arxiv-mcp-server"
+      ],
+      "env": {}
+    },
+    "academic-research": {
+      "command": "uvx",
+      "args": [
+        "--with",
+        "bibtexparser<2",
+        "academic-research-mcp"
+      ]
+    },
+    "thesis-latex": {
+      "command": "{{KIT_PYTHON}}",
+      "args": [
+        "{{KIT_SCRIPT}}"
+      ],
+      "env": {
+        "THESIS_ROOT": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+academic-research-skills@academic-research-skills
+academic-research@mronkko
+editorial-tools@mronkko
+academic-writing-skills@ai-research-skills
+research-workspace@ai-research-skills
+zotero-skills@ai-research-skills
+claude-scientific-writer@claude-scientific-writer
+document-skills@anthropic-agent-skills
+example-skills@anthropic-agent-skills
+manuscript@research-skills
+opencite@research-skills
+grant@research-skills
+figures@research-skills
+presentation@research-skills
+research@scholar-tools
+open-scholar-skill@open-scholar
+elements-of-style@superpowers-marketplace

@@ -1,0 +1,33 @@
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- Vendor clones (fetched at install time, never committed) ---
+vendor/
+!vendor.ini
+
+# --- Local installs / manifests ---
+.claude/
+.mcp.json
+*.local.json
+
+# --- Secrets: never commit these ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
